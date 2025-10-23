@@ -1,0 +1,108 @@
+{
+  "bundleVersion": "1.0.0",
+  "locale": "en",
+  "patterns": [
+    {
+      "id": "fear",
+      "category": "emotion",
+      "regex": "fear\\w*|afraid\\w*|scared\\w*|terrified\\w*|dread\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "anxiety",
+      "category": "emotion", 
+      "regex": "anxiety\\w*|worried\\w*|nervous\\w*|concerned\\w*|stressed\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "joy",
+      "category": "emotion",
+      "regex": "happy\\w*|joy\\w*|excited\\w*|delighted\\w*|cheerful\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "love",
+      "category": "emotion",
+      "regex": "love\\w*|loved\\w*|passion\\w*|romance\\w*|affection\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "anger",
+      "category": "emotion",
+      "regex": "anger\\w*|angry\\w*|furious\\w*|rage\\w*|mad\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "sadness",
+      "category": "emotion",
+      "regex": "sad\\w*|sadness\\w*|depressed\\w*|grief\\w*|melancholy\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "awe",
+      "category": "emotion",
+      "regex": "awe\\w*|wonder\\w*|astonished\\w*|marvel\\w*|amazing\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "calm",
+      "category": "emotion",
+      "regex": "calm\\w*|peaceful\\w*|serene\\w*|relaxed\\w*|tranquil\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "human",
+      "category": "character",
+      "regex": "person\\w*|people\\w*|man\\w*|woman\\w*|child\\w*|friend\\w*|family\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "animal",
+      "category": "character",
+      "regex": "animal\\w*|dog\\w*|cat\\w*|bird\\w*|horse\\w*|fish\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "friendly",
+      "category": "social",
+      "regex": "talk\\w*|laugh\\w*|hug\\w*|help\\w*|friend\\w*|kind\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "aggressive",
+      "category": "social",
+      "regex": "fight\\w*|war\\w*|battle\\w*|conflict\\w*|argue\\w*|shout\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "sexual",
+      "category": "social",
+      "regex": "kiss\\w*|love\\w*|romantic\\w*|passion\\w*|intimate\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "indoor",
+      "category": "setting",
+      "regex": "house\\w*|room\\w*|building\\w*|school\\w*|hospital\\w*|shop\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "outdoor",
+      "category": "setting",
+      "regex": "park\\w*|forest\\w*|sea\\w*|mountain\\w*|street\\w*|garden\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "success",
+      "category": "outcome",
+      "regex": "success\\w*|win\\w*|victory\\w*|achieve\\w*|happy\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "failure",
+      "category": "outcome",
+      "regex": "fail\\w*|lose\\w*|fall\\w*|defeat\\w*|error\\w*",
+      "threshold": 0.1
+    }
+  ]
+}

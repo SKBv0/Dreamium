@@ -1,0 +1,108 @@
+{
+  "bundleVersion": "1.0.0",
+  "locale": "CHANGE_ME",
+  "patterns": [
+    {
+      "id": "fear",
+      "category": "emotion",
+      "regex": "FEAR_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "anxiety",
+      "category": "emotion",
+      "regex": "ANXIETY_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "joy",
+      "category": "emotion",
+      "regex": "JOY_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "love",
+      "category": "emotion",
+      "regex": "LOVE_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "anger",
+      "category": "emotion",
+      "regex": "ANGER_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "sadness",
+      "category": "emotion",
+      "regex": "SADNESS_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "awe",
+      "category": "emotion",
+      "regex": "AWE_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "calm",
+      "category": "emotion",
+      "regex": "CALM_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "human",
+      "category": "character",
+      "regex": "HUMAN_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "animal",
+      "category": "character",
+      "regex": "ANIMAL_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "friendly",
+      "category": "social",
+      "regex": "FRIENDLY_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "aggressive",
+      "category": "social",
+      "regex": "AGGRESSIVE_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "sexual",
+      "category": "social",
+      "regex": "SEXUAL_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "indoor",
+      "category": "setting",
+      "regex": "INDOOR_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "outdoor",
+      "category": "setting",
+      "regex": "OUTDOOR_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "success",
+      "category": "outcome",
+      "regex": "SUCCESS_WORDS_HERE",
+      "threshold": 0.1
+    },
+    {
+      "id": "failure",
+      "category": "outcome",
+      "regex": "FAILURE_WORDS_HERE",
+      "threshold": 0.1
+    }
+  ]
+}

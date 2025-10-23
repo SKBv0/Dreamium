@@ -1,0 +1,115 @@
+{
+  "movement": {
+    "uçmak": {
+      "type": "Freedom_action",
+      "valence": "positive",
+      "psychological_meaning": "Desire for freedom or liberation from constraints"
+    },
+    "kaçmak": {
+      "type": "Escape_action",
+      "valence": "negative",
+      "psychological_meaning": "Escaping from threat, avoiding confrontation"
+    },
+    "düşmek": {
+      "type": "Falling_action",
+      "valence": "negative",
+      "psychological_meaning": "Loss of control, lack of support"
+    },
+    "yüzmek": {
+      "type": "Water_action",
+      "valence": "neutral",
+      "psychological_meaning": "Coping with emotional state"
+    },
+    "yürümek": {
+      "type": "Path_action",
+      "valence": "neutral",
+      "psychological_meaning": "Life journey, seeking direction"
+    },
+    "tırmanmak": {
+      "type": "Achievement_action",
+      "valence": "positive",
+      "psychological_meaning": "Overcoming challenges, desire for progress"
+    },
+    "koşmak": {
+      "type": "Movement_action",
+      "valence": "neutral",
+      "psychological_meaning": "Running away from something or toward something"
+    }
+  },
+  "interaction": {
+    "konuşmak": {
+      "type": "Communication_action",
+      "valence": "neutral",
+      "psychological_meaning": "Need for communication, desire to express"
+    },
+    "aramak": {
+      "type": "Search_action",
+      "valence": "neutral",
+      "psychological_meaning": "Desire to find something lost, being in search"
+    },
+    "savaşmak": {
+      "type": "Conflict_action",
+      "valence": "negative",
+      "psychological_meaning": "Internal or external conflicts, struggle"
+    },
+    "öpmek": {
+      "type": "Intimacy_action",
+      "valence": "positive",
+      "psychological_meaning": "Intimacy, desire for connection"
+    },
+    "sarılmak": {
+      "type": "Comfort_action",
+      "valence": "positive",
+      "psychological_meaning": "Need for security and acceptance"
+    },
+    "görmek": {
+      "type": "Perception_action", 
+      "valence": "neutral",
+      "psychological_meaning": "Awareness, gaining insight"
+    }
+  },
+  "transformation": {
+    "değişmek": {
+      "type": "Transformation_action",
+      "valence": "neutral",
+      "psychological_meaning": "Kimlik değişimi, dönüşüm süreci"
+    },
+    "büyümek": {
+      "type": "Growth_action",
+      "valence": "positive",
+      "psychological_meaning": "Kişisel gelişim, olgunlaşma"
+    },
+    "küçülmek": {
+      "type": "Diminishing_action",
+      "valence": "negative",
+      "psychological_meaning": "Güçsüzlük, yetersizlik hissi"
+    },
+    "kaybolmak": {
+      "type": "Lost_action",
+      "valence": "negative",
+      "psychological_meaning": "Yön ve amaç kaybı, kararsızlık"
+    }
+  },
+  "emotional": {
+    "ağlamak": {
+      "type": "Emotional_action",
+      "valence": "negative",
+      "psychological_meaning": "Üzüntü, yas, duygusal boşalma"
+    },
+    "gülmek": {
+      "type": "Joy_action",
+      "valence": "positive",
+      "psychological_meaning": "Mutluluk, rahatlama, kabullenme"
+    },
+    "korkmak": {
+      "type": "Fear_action",
+      "valence": "negative",
+      "psychological_meaning": "Tehdit algısı, güvensizlik"
+    },
+    "sevmek": {
+      "type": "Love_action",
+      "valence": "positive",
+      "psychological_meaning": "Bağlanma, kabul edilme ihtiyacı"
+    }
+  }
+} 

@@ -1,0 +1,143 @@
+{
+  "dreamText": "Rüyamda sokak lambaları saat ibresine dönüştü. Kuzey benden kaçıyor gibiydi. Evde oturuyordum ve dışarıda garip bir ışık vardı. Aniden her şey değişti ve kendimi farklı bir yerde buldum. Korku hissettim ama nedenini bilmiyordum.",
+  "expectedBundle": {
+    "emotions": {
+      "pos": 10,
+      "neg": 70,
+      "neu": 20,
+      "labels": [
+        {
+          "tag": "korku",
+          "score": 70,
+          "intensity": 70,
+          "valence": "neg",
+          "arousal": 60
+        }
+      ],
+      "confidence": 85,
+      "tone": "negative"
+    },
+    "entities": {
+      "people": ["ben"],
+      "animals": [],
+      "places": ["ev", "sokak"],
+      "objects": ["lamba", "saat"],
+      "events": []
+    },
+    "sleep": {
+      "stage": "NREM",
+      "confidence": 75,
+      "vividness": 60,
+      "emotionalIntensity": 70,
+      "bizarrenessScore": 85,
+      "narrativeCoherence": 45
+    },
+    "plausibility": {
+      "logical": 30,
+      "physical": 40,
+      "social": 80,
+      "bizarreness": 85,
+      "overall": 45
+    },
+    "continuity": {
+      "thematic": 60,
+      "emotional": 40,
+      "social": 20,
+      "cognitive": 50,
+      "overall": 42,
+      "hasDayData": false
+    },
+    "themes": [
+      {
+        "id": "dönüşüm",
+        "scoreRaw": 0.8,
+        "scoreNorm": 40,
+        "evidenceSpans": [0, 50],
+        "strength": "high",
+        "evidenceLevel": "high"
+      },
+      {
+        "id": "korku",
+        "scoreRaw": 0.6,
+        "scoreNorm": 30,
+        "evidenceSpans": [100, 150],
+        "strength": "medium",
+        "evidenceLevel": "medium"
+      },
+      {
+        "id": "yer_değişimi",
+        "scoreRaw": 0.4,
+        "scoreNorm": 20,
+        "evidenceSpans": [80, 120],
+        "strength": "medium",
+        "evidenceLevel": "medium"
+      },
+      {
+        "id": "belirsizlik",
+        "scoreRaw": 0.2,
+        "scoreNorm": 10,
+        "evidenceSpans": [140, 180],
+        "strength": "low",
+        "evidenceLevel": "low"
+      }
+    ],
+    "sourceText": "Rüyamda sokak lambaları saat ibresine dönüştü. Kuzey benden kaçıyor gibiydi. Evde oturuyordum ve dışarıda garip bir ışık vardı. Aniden her şey değişti ve kendimi farklı bir yerde buldum. Korku hissettim ama nedenini bilmiyordum.",
+    "language": "tr",
+    "hideEmotionCards": false,
+    "hideSleepPercentages": false,
+    "hideContinuityData": true,
+    "analysisVersion": "1.0.0",
+    "timestamp": "2025-01-27T10:00:00Z",
+    "confidence": 75,
+    "hasMetamorphosis": true,
+    "validationResults": [
+      {
+        "rule": "D-EMO-01",
+        "passed": true,
+        "message": "Tone correctly determined as negative"
+      },
+      {
+        "rule": "D-REAL-01", 
+        "passed": true,
+        "message": "Metamorphosis penalty applied to physical plausibility"
+      },
+      {
+        "rule": "D-SLP-01",
+        "passed": true,
+        "message": "Sleep stage properly set to NREM"
+      },
+      {
+        "rule": "D-ENT-01",
+        "passed": true,
+        "message": "Entity counts consistent across all panels"
+      }
+    ]
+  },
+  "testCases": [
+    {
+      "name": "TC-EMO-1",
+      "description": "Tone should be negative, not neutral",
+      "input": { "pos": 20, "neg": 70, "neu": 10 },
+      "expected": "negative"
+    },
+    {
+      "name": "TC-PLS-1", 
+      "description": "Metamorphosis should cap physical plausibility at 50",
+      "input": { "hasMetamorphosis": true, "physical": 80 },
+      "expected": 50
+    },
+    {
+      "name": "TC-SLP-1",
+      "description": "Unknown sleep stage should not have probability",
+      "input": { "stage": "unknown", "prob": 25 },
+      "expected": { "stage": "unknown", "prob": undefined }
+    },
+    {
+      "name": "TC-ENT-1",
+      "description": "Entity counts should be consistent",
+      "input": { "animals": ["at", "ayı"], "characterCount": 1 },
+      "expected": { "animals": ["at"], "characterCount": 1 }
+    }
+  ]
+}
+

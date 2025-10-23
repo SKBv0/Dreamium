@@ -1,0 +1,157 @@
+{
+  "natural": {
+    "orman": {
+      "type": "Nature_place",
+      "valence": "neutral",
+      "psychological_meaning": "Bilinçdışı, keşfedilmemiş kişisel yönler"
+    },
+    "dağ": {
+      "type": "Nature_place",
+      "valence": "positive",
+      "psychological_meaning": "Aşılması gereken zorluklar, yükselme arzusu"
+    },
+    "nehir": {
+      "type": "Water_place",
+      "valence": "neutral",
+      "psychological_meaning": "Hayatın akışı, duygusal süreçler"
+    },
+    "deniz": {
+      "type": "Water_place",
+      "valence": "neutral",
+      "psychological_meaning": "Bilinçaltı, kolektif bilinçdışı, derin duygular"
+    },
+    "göl": {
+      "type": "Water_place",
+      "valence": "neutral",
+      "psychological_meaning": "Sakin duygular, içe dönük düşünme"
+    },
+    "mağara": {
+      "type": "Nature_place",
+      "valence": "negative",
+      "psychological_meaning": "Bilinçaltı, saklı korkular, keşfedilmemiş benlik"
+    },
+    "çöl": {
+      "type": "Nature_place",
+      "valence": "negative",
+      "psychological_meaning": "Yalnızlık, kaynak eksikliği, zorluklar"
+    }
+  },
+  "domestic": {
+    "ev": {
+      "type": "Home_place",
+      "valence": "positive",
+      "psychological_meaning": "Benlik, kimlik, güvenlik alanı"
+    },
+    "yatak odası": {
+      "type": "Home_place",
+      "valence": "neutral",
+      "psychological_meaning": "Mahremiyet, dinlenme, bilinçaltı"
+    },
+    "mutfak": {
+      "type": "Home_place",
+      "valence": "positive",
+      "psychological_meaning": "Besleme, dönüşüm, aile dinamikleri"
+    },
+    "banyo": {
+      "type": "Home_place",
+      "valence": "neutral",
+      "psychological_meaning": "Arınma, yenilenme, dönüşüm"
+    },
+    "bahçe": {
+      "type": "Nature_home",
+      "valence": "positive",
+      "psychological_meaning": "Kişisel gelişim, yetişme, bakım"
+    },
+    "çatı": {
+      "type": "Home_place",
+      "valence": "neutral",
+      "psychological_meaning": "Yüksek bilinç, spiritüel düşünceler"
+    },
+    "bodrum": {
+      "type": "Home_place",
+      "valence": "negative",
+      "psychological_meaning": "Bastırılmış düşünceler, korkular, eski anılar"
+    }
+  },
+  "institutional": {
+    "okul": {
+      "type": "School_place",
+      "valence": "neutral",
+      "psychological_meaning": "Öğrenme, kişisel gelişim, sosyal değerlendirme"
+    },
+    "hastane": {
+      "type": "Medical_place",
+      "valence": "negative",
+      "psychological_meaning": "İyileşme, acı, dönüşüm, ölümlülük"
+    },
+    "ofis": {
+      "type": "Work_place",
+      "valence": "neutral",
+      "psychological_meaning": "Sorumluluk, kimlik, görevler"
+    },
+    "hapishane": {
+      "type": "Confinement_place",
+      "valence": "negative",
+      "psychological_meaning": "Kısıtlanma, cezalandırılma, sınırlanma"
+    },
+    "kilise": {
+      "type": "Spiritual_place",
+      "valence": "positive",
+      "psychological_meaning": "Spiritüel arayış, değerler, inanç"
+    },
+    "mahkeme": {
+      "type": "Authority_place",
+      "valence": "negative",
+      "psychological_meaning": "Yargılanma, adalet, suçluluk"
+    }
+  },
+  "transitional": {
+    "yol": {
+      "type": "Journey_place",
+      "valence": "neutral",
+      "psychological_meaning": "Hayat yolculuğu, seçimler, yön"
+    },
+    "köprü": {
+      "type": "Transition_place",
+      "valence": "neutral",
+      "psychological_meaning": "Geçiş, değişim, bağlantı"
+    },
+    "havaalanı": {
+      "type": "Transition_place",
+      "valence": "neutral",
+      "psychological_meaning": "Büyük değişimler, ayrılıklar, başlangıçlar"
+    },
+    "asansör": {
+      "type": "Transition_place",
+      "valence": "neutral",
+      "psychological_meaning": "Bilinç düzeyleri arasında geçiş, statü değişimi"
+    },
+    "merdiven": {
+      "type": "Transition_place",
+      "valence": "neutral",
+      "psychological_meaning": "Bilinç düzeyleri arasında aşamalı geçiş"
+    }
+  },
+  "urban": {
+    "şehir": {
+      "type": "Urban_place",
+      "valence": "neutral",
+      "psychological_meaning": "Sosyal etkileşim, kolektif bilinç, karmaşıklık"
+    },
+    "sokak": {
+      "type": "Urban_place",
+      "valence": "neutral",
+      "psychological_meaning": "Kamusal benlik, sosyal etkileşimler"
+    },
+    "park": {
+      "type": "Urban_nature",
+      "valence": "positive",
+      "psychological_meaning": "Kentsel ortamda doğayla bağlantı, rahatlama"
+    },
+    "alışveriş merkezi": {
+      "type": "Commercial_place",
+      "valence": "neutral",
+      "psychological_meaning": "Tüketim, seçimler, sosyal değerler"
+    }
+  }
+} 

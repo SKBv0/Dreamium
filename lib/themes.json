@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Su",
+    "regex": "\\b(göl|su|dalga|damla|yağmur|yüzmek|akış|akışkan|buz|buzdan|balina|fosfor|şeffaf|ışık_lifleri|sıvı|eridi|yüzey|kulaç)\\b",
+    "emoji": "💧",
+    "color": "#03A9F4",
+    "description": "Bilinçaltı, duygular ve ruhsal akışı sembolize eder.",
+    "psychological_theory": "Jung's collective unconscious and Freud's unconscious theory",
+    "cognitive_domain": "unconscious_emotions",
+    "source": "Hall–VdC §Ortam",
+    "weight": 0.9
+  },
+  {
+    "name": "Merdiven",
+    "regex": "\\b(merdiven|basamak|spiral|tırman|zirve|teras|yüksel|çık|kristal_merdiven|basamaklar|basamağı|merdivenin)\\b",
+    "emoji": "🪜",
+    "color": "#9C27B0",
+    "description": "Gelişim, ilerleme ve kişisel büyüme süreçleri.",
+    "psychological_theory": "Maslow's hierarchy of needs and personal development theory",
+    "cognitive_domain": "achievement_growth",
+    "source": "Hall–VdC §Hareket",
+    "weight": 0.8
+  },
+  {
+    "name": "Ulaşım",
+    "regex": "\\b(araba|otobüs|tren|uçak|gemi|bisiklet|motor|taksi|metro|asansör|küresi)\\b",
+    "emoji": "🚗",
+    "color": "#78909C",
+    "description": "Yaşam yolculuğu ve kontrol ihtiyacı.",
+    "psychological_theory": "Life transitions and control theory",
+    "cognitive_domain": "life_direction",
+    "source": "Hall–VdC §Nesne",
+    "weight": 0.7
+  },
+  {
+    "name": "Nostalji",
+    "regex": "\\b(çocukluk|geçmiş|anı|hatıra|eskiden|o_zamanlar|büyükanne|büyükbaba|eski_ev|genç_hâlim|e_posta|mektup|evimizin|kapısı|childhood|past|memory|souvenir|formerly|back_then|grandmother|grandfather|old_house|younger_self|email|letter|our_home's_door)\\b",
+    "emoji": "🕰️",
+    "color": "#4CAF50",
+    "description": "Geçmişe özlem ve zaman algısı.",
+    "psychological_theory": "Temporal perception and memory consolidation",
+    "cognitive_domain": "temporal_reflection",
+    "source": "Custom §Zaman",
+    "weight": 0.8
+  },
+  {
+    "name": "Hayranlık",
+    "regex": "\\b(güzel|muhteşem|büyüleyici|etkileyici|harika|şaşırtıcı|yıldız|kristal|parlak|ışıltı|göz_alıcı|neon|fosforlu|parıltı|aurora|titrek)\\b",
+    "emoji": "✨",
+    "color": "#FF9800",
+    "description": "Estetik deneyim ve büyülenme hissi.",
+    "psychological_theory": "Aesthetic psychology and positive emotion theory",
+    "cognitive_domain": "aesthetic_appreciation",
+    "source": "Custom §Duygu",
+    "weight": 0.6
+  },
+  {
+    "name": "Labirent",
+    "regex": "\\b(labirent|koridor|geçit|yol|ayrım|dönemece|karmaşık|kaybolmak|çıkış|ayna|yansıma|trapdoor|ters|baş_aşağı|tünel|anamorfik|rubik|karıştır|portal|geçince|labyrinth|corridor|passageway|road|intersection|turn|complex|get_lost|exit|mirror|reflection|upside_down|tunnel|anamorphic|rubik's|mix|portal|pass_through)\\b",
+    "emoji": "🌀",
+    "color": "#F44336",
+    "description": "Karmaşıklık, arayış ve iç keşif süreçleri.",
+    "psychological_theory": "Jung's individualization process and inner journey",
+    "cognitive_domain": "self_exploration",
+    "source": "Custom §Yapı",
+    "weight": 0.7
+  },
+  {
+    "name": "Müzik",
+    "regex": "\\b(opera|beste|orkestra|daktilo|tuş|ses|ritim|melodi|şarkı|çal|MIDI|tıkırtı|melodik|nabız|gramofon|iğne|plak|doppler|foton|gong|nota|sesler|notalara|benzer)\\b",
+    "emoji": "🎵",
+    "color": "#795548",
+    "description": "Yaratıcılık, duygusal ifade ve uyum.",
+    "psychological_theory": "Music psychology and creative expression theory",
+    "cognitive_domain": "creative_expression",
+    "source": "Custom §Sanat",
+    "weight": 0.6
+  },
+  {
+    "name": "Uçuş",
+    "regex": "\\b(kanat|uç|uçuş|süzül|göğe|havada|yüksel|uçmak|kuş|tüy|yüzen|havalanıp|taşıdı|çırpış|antigravite|savur|çırpışım|çırpışı|çırpışın|ağırlıksız|asılı|yükselen|flying|fly|sky|clouds|soar)\\b",
+    "emoji": "🕊️",
+    "color": "#607D8B",
+    "description": "Özgürlük, aşkınlık ve sınırları aşma.",
+    "psychological_theory": "Özgürlük psikolojisi ve aşkınlık deneyimi",
+    "cognitive_domain": "transcendence_freedom",
+    "source": "Hall–VdC §Hareket",
+    "weight": 0.8
+  },
+  {
+    "name": "Ev",
+    "regex": "\\b(ev|evim|evde|evimiz|home|house|garden|bahçe|oda|odası|salon|mutfak|yatak|pencere|duvar|çatı|balkon)\\b",
+    "emoji": "🏠",
+    "color": "#4CAF50",
+    "description": "Güvenlik, aidiyet ve aile bağlantıları.",
+    "psychological_theory": "Bağlanma teorisi ve güvenlik ihtiyaçları",
+    "cognitive_domain": "security_belonging",
+    "source": "Hall–VdC §Ortam",
+    "weight": 0.9
+  },
+  {
+    "name": "Aile",
+    "regex": "\\b(anne|annem|baba|babam|mother|father|mom|dad|aile|family|kardeş|abla|ağabey|eş|çocuk|büyükanne|büyükbaba|ebeveyn)\\b",
+    "emoji": "👨‍👩‍👧‍👦",
+    "color": "#E91E63",
+    "description": "Aile bağları ve kişilerarası ilişkiler.",
+    "psychological_theory": "Aile sistemleri teorisi ve bağlanma bağları",
+    "cognitive_domain": "social_connection",
+    "source": "Hall–VdC §Karakter",
+    "weight": 0.9
+  },
+  {
+    "name": "Teknoloji",
+    "regex": "\\b(teknoloji|robot|yapay_zeka|bilgisayar|kod|yazılım|ekran|dijital|sanal|hologram|holografik|çip|devre|mekanik|siber|cyber|technology|robot|ai|artificial_intelligence|computer|code|software|screen|digital|virtual|hologram|holographic|chip|circuit|mechanical|cyber|drone|bilgisayarlı)\\b",
+    "emoji": "💾",
+    "color": "#424242",
+    "description": "Teknolojik imgeler ve dijital deneyimler.",
+    "psychological_theory": "Modern life adaptation and technology integration",
+    "cognitive_domain": "technological_adaptation",
+    "source": "Custom §Modern",
+    "weight": 0.7
+  },
+  {
+    "name": "Zaman",
+    "regex": "\\b(zaman|saat|dakika|an|geçmiş|gelecek|şimdi|dönem|çağ|yaş|tarih|mekanizma|dişli|saniye|durgunluk|mevsimler|döngüsel|aurora|time|clock|minute|moment|past|future|now|period|age|date|mechanism|gear|second|stagnation|seasons|cyclical)\\b",
+    "emoji": "⏰",
+    "color": "#8D6E63",
+    "description": "Temporal awareness and life cycles.",
+    "psychological_theory": "Temporal psychology and life cycle theory",
+    "cognitive_domain": "temporal_awareness",
+    "source": "Custom §Zaman",
+    "weight": 0.5
+  },
+  {
+    "name": "Dönüşüm",
+    "regex": "\\b(değiş|dönüş|başka|farklı|yeni|eski|evrim|gelişim|büyü|dönüştü|kelebek|sıvı|metal|dağıldı|çatlayıp|bölünüyor|dönüşüyor)\\b",
+    "emoji": "🦋",
+    "color": "#263238",
+    "description": "Kişisel değişim ve gelişim süreçleri.",
+    "psychological_theory": "Change psychology and adaptation theory",
+    "cognitive_domain": "transformation_growth",
+    "source": "Custom §Süreç",
+    "weight": 0.7
+  },
+  {
+    "name": "Korku",
+    "regex": "\\b(korku|kaygı|endişe|tedirgin|panik|dehşet|klostrofobik|karanlık|zift|deri|gözleri olmayan|izliyor|kaçmak|kovalamak|sesim çıkmıyor|nefes|fısıltı|çözülmek|düşmek|göz|çalmak|korkunç)\\b",
+    "emoji": "😨",
+    "color": "#E53935",
+    "description": "Kaygı veya algılanan tehditleri gösterir.",
+    "psychological_theory": "Freud's anxiety theory and Beck's cognitive triangle model",
+    "cognitive_domain": "threat_detection",
+    "source": "Hall–VdC §Saldırganlık",
+    "weight": 1.0
+  },
+  {
+    "name": "Huzur",
+    "regex": "\\b(huzur|sakin|barış|güven|rahatlık|sıcaklık|sessizleşti|durgunluk|peace|calm|tranquility|serenity|comfort|warmth|quieted|stillness|acceptance)\\b",
+    "emoji": "😌",
+    "color": "#4CAF50",
+    "description": "İç huzur, güvenlik ve duygusal denge.",
+    "psychological_theory": "Positive psychology and emotional regulation theory",
+    "cognitive_domain": "tranquility_security",
+    "source": "Hall–VdC §Duygular",
+    "weight": 0.8
+  },
+  {
+    "name": "Gölge",
+    "regex": "\\b(gölge|karanlık|görünmeyen|bilinçaltı|bastırılmış|gizli|saklı|gizem|karanlık yan|karanlık taraf|görmezden|inkâr|korkunç|tehlikeli)\\b",
+    "emoji": "👤",
+    "color": "#424242",
+    "description": "Bastırılmış yanlar ve bilinçaltı korkular.",
+    "psychological_theory": "Jung's shadow archetype theory",
+    "cognitive_domain": "unconscious_conflict",
+    "source": "Hall–VdC §Karakter",
+    "weight": 0.8
+  },
+  {
+    "name": "Hapsedilme",
+    "regex": "\\b(hapsedilme|kapana kısılma|sıkışma|çıkış yolu yok|kaçamamak|çaresizlik|esaret|tutsak|kilitli|kafes|duvarlar arasında|imprisonment|trapped|stuck|no_exit|cannot_escape|helplessness|captivity|locked|cage|between_walls)\\b",
+    "emoji": "⛓️",
+    "color": "#616161",
+    "description": "Kısıtlanma, kontrol kaybı ve çaresizlik hislerini yansıtır.",
+    "psychological_theory": "Learned helplessness and external locus of control",
+    "cognitive_domain": "loss_of_control",
+    "source": "Hall–VdC §Ortam",
+    "weight": 0.9
+  },
+  {
+    "name": "Şehir",
+    "regex": "\\b(şehir|kent|bina|binalar|sokak|cadde|meydan|plaza|şehir_merkezi|metropol|urban|city|buildings|street|avenue|square|plaza|downtown|metropolis)\\b",
+    "emoji": "🏙️",
+    "color": "#607D8B",
+    "description": "Modern yaşam, karmaşa ve sosyal etkileşimler.",
+    "psychological_theory": "Urban psychology and social complexity",
+    "cognitive_domain": "social_environment",
+    "source": "Custom §Ortam",
+    "weight": 0.8
+  },
+  {
+    "name": "Köprü",
+    "regex": "\\b(köprü|bridge|geçit|geçiş|bağlantı|köprünün|köprüde|köprüden)\\b",
+    "emoji": "🌉",
+    "color": "#795548",
+    "description": "Geçiş, bağlantı ve dönüşüm sembolü.",
+    "psychological_theory": "Transition and transformation psychology",
+    "cognitive_domain": "transition",
+    "source": "Custom §Ortam",
+    "weight": 0.9
+  },
+  {
+    "name": "Işık",
+    "regex": "\\b(ışık|ışıltı|parlak|parıltı|aydınlık|nur|fener|lamba|ampul|spot|beam|light|bright|shine|glow|lamp|bulb|spotlight)\\b",
+    "emoji": "💡",
+    "color": "#FFC107",
+    "description": "Bilgi, aydınlanma ve farkındalık.",
+    "psychological_theory": "Enlightenment and consciousness theory",
+    "cognitive_domain": "awareness",
+    "source": "Custom §Nesne",
+    "weight": 0.8
+  },
+  {
+    "name": "Kimlik",
+    "regex": "\\b(kimlik|benlik|kendim|kendisi|kendini|kendine|kendimi|kendimiz|öz|özüm|özü|özün|özümüz|identity|self|myself|himself|herself|ourselves|essence|core)\\b",
+    "emoji": "🪞",
+    "color": "#E91E63",
+    "description": "Benlik, kimlik ve kişisel farkındalık.",
+    "psychological_theory": "Self-identity and ego psychology",
+    "cognitive_domain": "self_awareness",
+    "source": "Custom §Kişi",
+    "weight": 0.9
+  }
+] 

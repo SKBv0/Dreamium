@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Build outputs
+.next
+out
+dist
+build
+
+# Logs
+*.log
+logs
+
+# Cache
+.cache
+.turbo
+tsconfig.tsbuildinfo
+
+# IDE
+.vscode
+.idea

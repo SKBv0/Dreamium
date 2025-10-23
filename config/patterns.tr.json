@@ -1,0 +1,108 @@
+﻿{
+  "bundleVersion": "1.0.0",
+  "locale": "tr",
+  "patterns": [
+    {
+      "id": "fear",
+      "category": "emotion",
+      "regex": "kork\\w*|korkunç\\w*|dehşet\\w*|ürkütücü\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "anxiety",
+      "category": "emotion",
+      "regex": "kaygı\\w*|endişe\\w*|tedirgin\\w*|huzursuz\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "joy",
+      "category": "emotion",
+      "regex": "mutlu\\w*|sevindi\\w*|neşe\\w*|heyecan\\w*|coşku\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "love",
+      "category": "emotion",
+      "regex": "aşk\\w*|sevgi\\w*|sevmek\\w*|sevindim\\w*|aşık\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "anger",
+      "category": "emotion",
+      "regex": "öfke\\w*|kızgın\\w*|sinir\\w*|hiddet\\w*|çileden\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "sadness",
+      "category": "emotion",
+      "regex": "üzüntü\\w*|hüzün\\w*|keder\\w*|yas\\w*|melankoli\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "awe",
+      "category": "emotion",
+      "regex": "hayranlık\\w*|şaşkınlık\\w*|büyülü\\w*|etkileyici\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "calm",
+      "category": "emotion",
+      "regex": "sakin\\w*|huzurlu\\w*|dingin\\w*|rahat\\w*|sükunet\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "human",
+      "category": "character",
+      "regex": "insan\\w*|kişi\\w*|adam\\w*|kadın\\w*|çocuk\\w*|arkadaş\\w*|aile\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "animal",
+      "category": "character",
+      "regex": "hayvan\\w*|köpek\\w*|kedi\\w*|kuş\\w*|at\\w*|balık\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "friendly",
+      "category": "social",
+      "regex": "konuş\\w*|gül\\w*|sarılı\\w*|yardım\\w*|dost\\w*|arkadaş\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "aggressive",
+      "category": "social",
+      "regex": "kavga\\w*|savaş\\w*|dövüş\\w*|çatış\\w*|tartış\\w*|bağır\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "sexual",
+      "category": "social",
+      "regex": "öp\\w*|seviş\\w*|romantik\\w*|aşk\\w*|tutku\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "indoor",
+      "category": "setting",
+      "regex": "ev\\w*|oda\\w*|bina\\w*|okul\\w*|hastane\\w*|dükkan\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "outdoor",
+      "category": "setting",
+      "regex": "park\\w*|orman\\w*|deniz\\w*|dağ\\w*|sokak\\w*|bahçe\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "success",
+      "category": "outcome",
+      "regex": "başar\\w*|kazan\\w*|galip\\w*|mutlu\\w*|sevindi\\w*",
+      "threshold": 0.1
+    },
+    {
+      "id": "failure",
+      "category": "outcome",
+      "regex": "kaybet\\w*|başaram\\w*|düş\\w*|yenil\\w*|hata\\w*",
+      "threshold": 0.1
+    }
+  ]
+}
